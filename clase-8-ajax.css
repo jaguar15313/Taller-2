@@ -1,0 +1,47 @@
+@media screen and (min-width: 1068px) {
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+contenedor.personaje{
+    width: 100%;
+    height: 300px;
+    margin-top:10px;
+    
+}
+contenedor.personaje img{
+    height: 240px; 
+    margin:10px;
+
+}
+}
+
+div{
+background-color: aqua;
+font: 1em sans-serif;
+border: red 2px solid;
+
+}
+
+@media screen and (max-width: 900px) {
+    .input{
+        background-color: aqua;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    contenedor.personaje{
+        height: 150px;
+        margin-top:5px;
+        
+    }
+    contenedor.personaje img{
+        height: 50px;
+    }
+    
+  }
+
+  
